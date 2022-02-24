@@ -32,8 +32,10 @@ Time spent: 6 hours spent in total
 <img src="https://github.com/Sravani0208/Flix/blob/master/Flixwalkthrough.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
-
+1.While adding the library of coc.codepath.asynchttpclient the giddle build sync but while I add the library in the mainactivity as import com.codepath.AsyncHttpClient
+it is not imported. Later I have changed the version.
+2.While I bebug the app, the network shows an error message, please find the screenshot below. java.net.SocketException: socket failed: EPERM (Operation not permitted)
+I have reinstalled the app and it worked as expected.
 ### Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
